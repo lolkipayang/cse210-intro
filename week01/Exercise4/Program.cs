@@ -33,5 +33,18 @@ class Program
 
         float average = ((float)sum) / numbers.Count;
         Console.WriteLine($"The average is: {average}");
+
+        int max = numbers[0];
+
+        foreach (int number in numbers)
+        {
+            if (number > max)
+            {
+                // if this number is greater than the max, we have found the new max!
+                max = number;
+            }
+        }
+
+        Console.WriteLine($"The max is: {max}");
     }
 }
