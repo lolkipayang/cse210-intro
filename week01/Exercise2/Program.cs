@@ -7,7 +7,6 @@ class Program
          if (number >= 90)
         {
             Console.Write("Your grade is A");
-            string letter = Console.ReadLine();
         }
         else if (number >= 80)
         {
